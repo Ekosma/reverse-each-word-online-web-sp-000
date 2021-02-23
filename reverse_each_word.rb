@@ -1,5 +1,5 @@
 def reverse_each_word(array)
-  backwards = array.split(" ")
-  backwards = []
-  array.reverse.each do |array|
+  asplit = array.split(" ")
+  backwards = asplit.each {|x| x.reverse!|
+  return backwards.join(" ")
 end
