@@ -1,7 +1,7 @@
-def reverse_each_word(bb)
-  sp = bb.split(" ")
+def reverse_each_word(array)
+  sp = array.split(" ")
   backwards = []
-  bb.reverse.each do |bb|
+  array.reverse.each do |array|
     puts #{bb}
   end
 end
